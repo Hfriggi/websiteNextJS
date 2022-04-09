@@ -10,10 +10,10 @@ function Home(){
             <meta name="viewport" content="initial-scale=1.0, width=device-width" />
             <title> Henrque Friggi WebSite</title>
         </Head>
-        My WebSite!
-        <head2>
-             Site in development!
-        </head2>
+        Henrique Friggi
+        <h1>
+        My WebSite  in development!
+        </h1>
     </div>)
 }
 
