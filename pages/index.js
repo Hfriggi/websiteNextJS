@@ -7,6 +7,8 @@ function Home(){
     <head>
         <meta charSet='UTF-8'></meta>
         <title>HenriqueFriggi</title>
+        <link rel='stylesheet' href='styles.css'></link>
+        <h1>Henrique friggi Wrbsite</h1>
     </head>
     <body>
         <ul>
