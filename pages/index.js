@@ -8,9 +8,9 @@ function Home(){
         <meta charSet='UTF-8'></meta>
         <title>HenriqueFriggi</title>
         <link rel='stylesheet' href='styles.css'></link>
-        <h1>Henrique friggi Wrbsite</h1>
     </head>
     <body>
+    <h1>Henrique Friggi Website</h1>
         <ul>
             <li>
                 <a href='#' data-text='&nbsp;Home'>&nbsp;Home</a>
