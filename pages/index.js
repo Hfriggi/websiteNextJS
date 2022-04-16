@@ -19,7 +19,7 @@ function Home(){
     <body>
         <center>
             <h1>
-                teste 
+                teste
             </h1>
         </center>
     </body>

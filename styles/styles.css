@@ -15,7 +15,7 @@ nav {
   background-color: #1b1a1a;
   text-transform: uppercase;
   display: flex;
-  
+  justify-content: space-between;
 }
 ul
 {
@@ -23,7 +23,6 @@ ul
   display: flex;
   flex-direction:row;
   gap: 10px;
-  padding-left: 10%;
 }
 ul li
 {
@@ -65,6 +64,7 @@ h1
   letter-spacing: 2px;
   font-size: 1em;
   text-transform: uppercase;
+  line-height: 1.6em;
 }
 body
 {
@@ -80,5 +80,5 @@ Footer
 {
   text-transform: uppercase;
   justify-content: left;
-  padding-top: 100%;
+  justify-content: end;
 }
