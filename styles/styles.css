@@ -22,14 +22,12 @@ ul
   display: flex;
   flex-direction:row;
   gap: 10px;
-  justify-content: right;
+  padding-left: 10%;
 }
 ul li
 {
   position: relative;
   list-style: none;
-  justify-content: right;
-
 }
 ul li a
 {
@@ -61,12 +59,25 @@ ul li a:hover::before
 h1
 {
   color: rgb(223, 230, 230);
-  justify-content: left;
+  justify-content: center;
   max-width: 1200px;
   letter-spacing: 2px;
   font-size: 1em;
+  text-transform: uppercase;
 }
 body
 {
+  justify-content: left;
   background-color: rgb(10, 38, 114);
+}
+center
+{
+  padding-top: 2rem;
+  grid-column-gap: 2rem; 
+}
+Footer
+{
+  text-transform: uppercase;
+  justify-content: left;
+  padding-top: 100%;
 }
