@@ -9,8 +9,8 @@
 nav {
   font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
     'Arial', sans-serif;
-  padding: 20px 20px 0px;
-  max-width: 1200px;
+  padding: 20px 20px 12px;
+  max-width: 100%;
   margin: 0 auto;
   background-color: #1b1a1a;
   text-transform: uppercase;
@@ -68,7 +68,6 @@ h1
 }
 body
 {
-  justify-content: left;
   background-color: rgb(10, 38, 114);
 }
 center
@@ -79,6 +78,5 @@ center
 Footer
 {
   text-transform: uppercase;
-  justify-content: left;
   justify-content: end;
 }
