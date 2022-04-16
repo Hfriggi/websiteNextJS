@@ -1,5 +1,6 @@
 import { Html } from 'next/document'
 import Head from 'next/head'
+import react from 'react'
 
 function Home(){
     return (
@@ -9,8 +10,10 @@ function Home(){
         <title>HenriqueFriggi</title>
         <link rel='stylesheet' href='styles.css'></link>
     </head>
-    <body>
-    <h1>Henrique Friggi Website</h1>
+    <nav className='ml-auto'>
+        <h1>
+            Henrique Friggi WebSite
+        </h1>
         <ul>
             <li>
                 <a href='#' data-text='&nbsp;Home'>&nbsp;Home</a>
@@ -28,6 +31,13 @@ function Home(){
                 <a href='#' data-text='&nbsp;Contact'>&nbsp;Contact</a>
             </li>
         </ul>
+    </nav>
+    <body>
+        <center>
+            <h1>
+                teste
+            </h1>
+        </center>
     </body>
     </div>
 )}
