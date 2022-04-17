@@ -10,19 +10,22 @@ function Home(){
     return (
     <Fragment>
     <Header/>
-    <div>
     <head>
         <meta charSet='UTF-8'></meta>
         <title>Henrique Friggi WebSite</title>
         <link rel='stylesheet' href='styles.css'></link>
     </head>
-    <body>
-        <center>
-            <h1>
-                teste
-            </h1>
-        </center>
-    </body>
+    <div className='body1'>
+        <body>
+            <center>
+                <h1 className='TextTitle'>
+                    A Short Introduction
+                </h1>
+                <a className='TextDescribe'>
+                    I'm a Brazilliam Developer in formation, learning front-end and React Native!
+                </a>
+            </center>
+        </body>
     </div>
     <Footer />
     </Fragment>
