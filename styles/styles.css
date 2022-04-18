@@ -114,3 +114,18 @@ body
 {
   background-color: rgb(46, 63, 110);
 }
+
+@media (max-width: 1200px)
+{
+  .box
+  {
+    margin-top: -1em;
+    margin-left: 0%;
+    max-width: 250px;
+    height: 300px;
+  }
+  .image
+  {
+    margin-left: 25%;
+  }
+}

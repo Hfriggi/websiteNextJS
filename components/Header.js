@@ -23,9 +23,6 @@ export const Header = () => {
                     <li>
                         <a href='#' data-text='&nbsp;Work'>&nbsp;Work</a>
                     </li>
-                    <li>
-                        <a href='#' data-text='&nbsp;Contact'>&nbsp;Contact</a>
-                    </li>
                 </ul>
             </div>
         </nav>
