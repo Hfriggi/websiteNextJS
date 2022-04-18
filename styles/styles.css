@@ -16,19 +16,19 @@ nav {
   display: flex;
   justify-content: space-between;
 }
-ul
+nav ul
 {
   position: relative;
   display: flex;
   flex-direction:row;
   gap: 10px;
 }
-ul li
+nav ul li
 {
   position: relative;
   list-style: none;
 }
-ul li a
+nav ul li a
 {
   position: relative;
   font-size: 1em;
@@ -38,7 +38,7 @@ ul li a
   color: transparent;
   -webkit-text-stroke: 0.6px rgba(255, 255, 255, 0.596);
 }
-ul li a::before
+nav ul li a::before
 {
    content: attr(data-text);
    position: absolute;
@@ -48,7 +48,7 @@ ul li a::before
    transition: 1s;
   
 }
-ul li a:hover::before
+nav ul li a:hover::before
 {
   width: 100%;
   -webkit-text-stroke: 1px rgb(255, 0, 0);
@@ -70,14 +70,15 @@ ul li a:hover::before
   color: azure;
   text-decoration:underline;
   margin: auto;
+  font-size: 3em
 }
 .box
 {
-  margin-top: -10em;
-  margin-left: 35%;
-  width: 38em;
-  height: 10em;
-  background-color: #1b1a1a;
+  margin-top: -19em;
+  margin-left: 40%;
+  width: 45em;
+  height: 18em;
+  background: linear-gradient(#1b1a1a, #130606);
   align-items: center;
   display:flow-root;
   position: relative;
@@ -86,13 +87,14 @@ ul li a:hover::before
 .TextDescribe
 {
   color: azure;
+  font-size: 1.2em;
 }
 .image
 {
-  margin-top: 7em;
-  margin-right: 25%;
-  width: 15em;
-  height: 15em;
+  margin-top: 10em;
+  margin-right: 30%;
+  width: 25em;
+  height: 25em;
   align-items: center;
   background-color: #1b1a1a ;
   filter: drop-shadow(0 0 25px);
@@ -100,16 +102,22 @@ ul li a:hover::before
 }
 img
 {
-  width: 15em;
-  height: 15em;
+  width: 25em;
+  height: 25em;
   clip-path: circle();
 }
 Footer
 {
   text-transform: uppercase;
   justify-content: end;
-  margin-top: 20em;
+  margin-top: 10em;
 }
+.contactMe ul li
+{
+  display: table-row;
+  height: 40px;
+}
+
 body
 {
   background-color: rgb(46, 63, 110);
@@ -121,11 +129,12 @@ body
   {
     margin-top: -1em;
     margin-left: 0%;
-    max-width: 250px;
-    height: 300px;
+    max-width: 370px;
+    height: 450px;
+    transition: cubic-bezier(0.23, 1, 0.320, 1);
   }
   .image
   {
-    margin-left: 25%;
+    margin-left: 9%;
   }
 }

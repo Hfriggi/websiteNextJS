@@ -26,7 +26,9 @@ function Home(){
                     A Short Introduction
                 </h1>
                 <a className='TextDescribe'>
-                Graduating in Control and Automation Engineering and front-end developer in training. Amateur astronomer. Self-taught, motivated and fascinated by technology.
+                    <br/>Graduating in Control and Automation Engineering and front-end developer in training. 
+                    Amateur astronomer. Self-taught, motivated and fascinated by technology. 
+                    My first experience in codding was in my university. Since there i look every day to improve my hard skills to get further.
                 </a>
             </div>
         </center>
