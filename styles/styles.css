@@ -68,24 +68,47 @@ ul li a:hover::before
 .TextTitle
 {
   color: azure;
-  margin-top: 6em;
-  margin-left: 7em;
   text-decoration:underline;
+  margin: auto;
 }
-.body1
+.box
 {
-  background-color: rgb(46, 63, 110);
+  margin-top: -10em;
+  margin-left: 35%;
+  width: 38em;
+  height: 10em;
+  background-color: #1b1a1a;
+  align-items: center;
+  display:flow-root;
+  position: relative;
+  filter: drop-shadow(25px 25px 10px);
 }
 .TextDescribe
 {
-  margin-top: 6em;
-  margin-left: 7em;
-  align-content: center;
+  color: azure;
+}
+.image
+{
+  margin-top: 7em;
+  margin-right: 25%;
+  width: 15em;
+  height: 15em;
+  align-items: center;
+  background-color: #1b1a1a ;
+  filter: drop-shadow(0 0 25px);
+  clip-path: circle();
+}
+img
+{
+  width: 15em;
+  height: 15em;
+  clip-path: circle();
 }
 Footer
 {
   text-transform: uppercase;
   justify-content: end;
+  margin-top: 20em;
 }
 body
 {
