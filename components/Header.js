@@ -12,16 +12,16 @@ export const Header = () => {
             <div className='menu'>
                 <ul>
                     <li>
-                        <a href='#' data-text='&nbsp;Home'>&nbsp;Home</a>
+                        <a href='/' data-text='&nbsp;Home'>&nbsp;Home</a>
                     </li>
                     <li>
-                        <a href='#' data-text='&nbsp;About'>&nbsp;About</a>
+                        <a href='/about' data-text='&nbsp;About'>&nbsp;About</a>
                     </li>
                     <li>
-                        <a href='#' data-text='&nbsp;Projects'>&nbsp;Projects</a>
+                        <a href='/projects' data-text='&nbsp;Projects'>&nbsp;Projects</a>
                     </li>
                     <li>
-                        <a href='#' data-text='&nbsp;Work'>&nbsp;Work</a>
+                        <a href='/work' data-text='&nbsp;Work'>&nbsp;Work</a>
                     </li>
                 </ul>
             </div>
