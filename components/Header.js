@@ -6,7 +6,7 @@ export const Header = () => {
         <nav className='ml-auto'>
             <div className='Tittle'>
                 <h1>
-                    Henrique 
+                    Henrique
                 </h1>
             </div>
             <div className='menu'>
