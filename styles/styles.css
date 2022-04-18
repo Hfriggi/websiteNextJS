@@ -128,4 +128,12 @@ body
   {
     margin-left: 25%;
   }
+  .nav
+  {
+    max-width: 100%;
+  }
+  .Footer
+  {
+    align-self: center;
+  }
 }
