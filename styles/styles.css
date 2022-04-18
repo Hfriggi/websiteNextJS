@@ -89,6 +89,7 @@ nav ul li a:hover::before
 {
   color: azure;
   font-size: 1.2em;
+
 }
 .image
 {
@@ -116,6 +117,7 @@ Footer
   text-transform: uppercase;
   justify-content: end;
   margin-top: 10em;
+  color: aliceblue;
 }
 .contactMe ul li
 {
@@ -341,4 +343,9 @@ body
   text-decoration: underline;
   font-weight: 700;
   margin-top: 10px;
+}
+.projectTittle
+{
+  margin-top: 20px;
+  color: aliceblue;
 }

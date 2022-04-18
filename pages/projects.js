@@ -6,6 +6,9 @@ function Home(){
     return (
         <Fragment>
         <Header/>
+        <center>
+        <h1 className='projectTittle'>PROJECTS</h1>
+        </center>
     <body className='projects'>
         <div className='container'>
             <div className='boxProjects'>
