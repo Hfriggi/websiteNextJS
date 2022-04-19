@@ -16,20 +16,28 @@ function Home(){
         <title>Henrique Friggi WebSite</title>
         <link rel='stylesheet' href='styles.css'></link>
     </head>
-    <body>
+    <body className='HomeBody'>
         <center>
-            <div className='image'>
-                <img src='/images/perfil.jpg'/>
-            </div>
-            <div className='box'>
-                <h1 className='TextTitle'>
-                    A Short Introduction
-                </h1>
-                <a className='TextDescribe'>
-                    <br/>Graduating in Control and Automation Engineering and front-end developer in training. 
-                    Amateur astronomer. Self-taught, motivated and fascinated by technology. 
-                    My first experience in codding was in my university. Since there i look every day to improve my hard skills to get further.
-                </a>
+        <div className='projects'>
+            <div className='container'>
+                <div className='image'>
+                    <img src='/images/perfil.jpg'/>
+                </div>
+                <div className='firstText'>
+                    <h1>Hey! Welcome to my WebSite!</h1>
+                </div>
+                <div className='boxProjects'>
+                    <span></span>
+                        <div className='content'>
+                            <h2>A Short Introduction</h2>
+                            <p>Graduating in Control and Automation Engineering and front-end developer in training. 
+                                Amateur astronomer. Self-taught, motivated and fascinated by technology. 
+                                My first experience codding was in my university. Since there i look every day i can to improve 
+                                my skills to get better.</p>
+                            <a href='/about'>Read More In About</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </center>
     </body>
