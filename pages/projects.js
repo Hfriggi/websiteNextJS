@@ -40,7 +40,7 @@ function Home(){
                 <span></span>
                     <div className='content'>
                         <center>
-                        <h2>Equatorial Mount - Astrophotography</h2>
+                        <h2>Equatorial Mount to Astrophotography</h2>
                         <p>I'm developing a robotic arm that guides a telescope across the sky with 
                             enough precision to do long exposure photography. This equipment is controlled 
                             by Arduino microcontrollers with OnStep open source software, which should be 

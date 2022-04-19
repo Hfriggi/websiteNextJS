@@ -147,6 +147,14 @@ body
   }
 }
 
+@media (max-width: 700px)
+{
+  .boxProjects
+  {
+    min-height: 540px;
+    min-width: 300px;
+  }
+}
 .mainPage
 {
   width: 100%;
