@@ -9,17 +9,18 @@ function Home(){
         <center>
         <h1 className='projectTittle'>PROJECTS</h1>
         </center>
-    <body className='projects'>
-        <div className='container'>
-            <div className='boxProjects'>
-                <span></span>
-                    <div className='content'>
-                    <center>
-                        <h2>Twitter bot</h2>
-                        <p>In this project, i made a script in python who gets the AstroPhotography Of the Day (APOD) 
-                            from NASA and Astrobin, 2 of the most famous astronomy sites, 
-                            and post in a twitter account using Twitter API. Next step is deploy in AWS.</p>
-                        <a href='https://github.com/Hfriggi/AstroBot'>Read More</a>
+    <body className='mainPage'>
+        <div className='projects'>
+            <div className='container'>
+                <div className='boxProjects'>
+                    <span></span>
+                        <div className='content'>
+                        <center>
+                            <h2>Twitter bot</h2>
+                            <p>In this project, i made a script in python who gets the AstroPhotography Of the Day (APOD) 
+                                from NASA and Astrobin, 2 of the most famous astronomy sites, 
+                                and post in a twitter account using Twitter API. Next step is deploy in AWS.</p>
+                            <a href='https://github.com/Hfriggi/AstroBot'>Read More</a>
                     </center>
                     </div>
                 </div>
@@ -49,7 +50,8 @@ function Home(){
                     </div>
                 </div>
             </div>
-        </body>
+        </div>
+    </body>
         <Footer />
         </Fragment>
 )

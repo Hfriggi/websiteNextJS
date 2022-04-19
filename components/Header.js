@@ -2,7 +2,6 @@ import Head from 'next/head'
 
 export const Header = () => {
     return (
-        <center>
         <nav className='ml-auto'>
             <div className='Tittle'>
                 <h1>
@@ -26,6 +25,5 @@ export const Header = () => {
                 </ul>
             </div>
         </nav>
-    </center>
     )
 }
