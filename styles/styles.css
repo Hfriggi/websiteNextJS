@@ -175,7 +175,7 @@ body
 {
   flex-wrap: wrap;
   width: 100%;
-  padding: 40px 0;
+  padding: 40px 25px;
 }
 .HomeBody .container .boxProjects
 {
@@ -399,4 +399,38 @@ body
 {
   margin-top: 20px;
   color: aliceblue;
+}
+.aboutBody
+{
+  width: 100%;
+}
+.aboutBox
+{
+  align-items: center;
+  margin: auto;
+  width: 800px;
+  height: 500px;
+  background-color: #1b1a1a;
+  border-radius: 25px;
+  margin-top: 100px;
+
+}
+.aboutBox .aboutText
+{
+  justify-content: left;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  width: 800px;
+  height: 500px;
+  color: aliceblue;
+}
+.aboutText h1
+{
+  text-transform: uppercase;
+}
+.aboutText a
+{
+  color: red;
 }
