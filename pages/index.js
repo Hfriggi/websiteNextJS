@@ -21,7 +21,7 @@ function Home(){
         <div className='projects'>
             <div className='container'>
                 <div className='image'>
-                    <img src='/images/perfil.jpg'/>
+                    <img className='perfilImage' src='/images/perfil.jpg'/>
                 </div>
                 <div className='firstText'>
                     <h1>Hey! Welcome to my WebSite!</h1>
@@ -32,7 +32,7 @@ function Home(){
                             <h2>A Short Introduction</h2>
                             <p>Graduating in Control and Automation Engineering and front-end developer in training. 
                                 Amateur astronomer. Self-taught, motivated and fascinated by technology. 
-                                My first experience codding was in my university. Since there i look every day i can to improve 
+                                My first experience codding was in my university. Since there i look to improve 
                                 my skills to get better.</p>
                             <a href='/about'>Read More In About</a>
                         </div>

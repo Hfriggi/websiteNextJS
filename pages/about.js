@@ -7,14 +7,15 @@ function Home(){
         <Fragment>
         <Header/>
         <body className='aboutBody'>
-            <div className='aboutBox'>
-                <div className='aboutText'>
-                    <center>
-                        <h1>Let me <a>introduce</a> myself</h1>
-                    </center>
-                    <p> <br/>Hi Everyone! I am Henrique Friggi from Indaial - Brasil. I am a Junior
+            <div className='aboutMain'>
+                <div className='aboutBox'>
+                    <div className='aboutText'>
+                        <center>
+                        <h1>Let me introduce myself</h1>
+                        </center>
+                        <p> <br/>Hi Everyone! I am Henrique Friggi from Indaial - Brasil. I am a Junior
                         developer, undergraduated in Sistems Develpment and Analisys. <br/> I fell in
-                        love with codding when i get in university, since there i have learn about.
+                        love with codding when i get in university, since there i have learn more about every day.
                         <br/><br/>
                         I am most experience in <a>C, C++ and Python</a>. <br />
                         I am learning <a>HTML, CSS and JavaScript</a>.
@@ -23,9 +24,13 @@ function Home(){
                         <br/><br/>
                         For now, i am applying my passion studing <a>modern JavaScript's libraries and Frameworks</a> like  
                         <a> ReactJS and NextJS</a>.
-                    </p>
+                        </p>
+                    </div>
                 </div>
             </div>
+                <div className='aboutMain'> 
+                    <img classname= 'aboutImg' src='/images/about.png' height={300}></img>
+                </div>
         </body>
         <Footer />
         </Fragment>
