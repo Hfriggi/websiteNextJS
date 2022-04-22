@@ -1,7 +1,8 @@
 import {Footer} from '../components/Footer';
 import { Header } from '../components/Header';
 import React, { Fragment } from 'react';
-
+import GitHubCalendar from 'react-github-calendar';
+  
 function Home(){
     return (
         <Fragment>
@@ -26,7 +27,7 @@ function Home(){
                         For now, i am applying my passion studing <a>modern JavaScript's libraries and Frameworks</a> like  
                         <a> ReactJS and NextJS</a>.
                         <br/><br/>
-                        Apart codding, some other activitys i love to do:
+                        Appart codding, some other activitys i love to do:
                         <br/> Play games.
                         <br/> Astrophotography.
                         <br/> Read books.
@@ -56,6 +57,11 @@ function Home(){
                             <i class="devicon-github-original-wordmark"></i>
                             <i class="devicon-amazonwebservices-plain-wordmark"></i>
                         </div>
+                    </center>
+                </div>
+                <div className='gitHubCalendar'>
+                    <center>
+                        <GitHubCalendar username="hfriggi"/>
                     </center>
                 </div>
             </div>

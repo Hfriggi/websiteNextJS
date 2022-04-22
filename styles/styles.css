@@ -408,17 +408,16 @@ body
 {
   align-items: auto;
   margin: auto;
-  width: 1000px;
-  height: 600px;
-  background-color:  #1b1a1a ;
+  max-width: 1000px;
+  min-height: 600px;
   border-radius: 25px;
   margin-top: 100px;
 }
 .aboutText
 {
   margin: auto;
-  width: 1200px;
-  height: 500px;
+  max-width: 1200px;
+  min-height: 500px;
   margin-top: -550px;
   color: aliceblue;
   border-radius: 25px;
@@ -428,6 +427,7 @@ body
 .aboutText h1
 {
   text-transform: uppercase;
+  filter:drop-shadow(10px 10px 10px rgb(0, 0, 0));
 }
 .aboutText a
 {
@@ -437,21 +437,57 @@ body
 {
   margin-left: 150px;
   margin-right: 150px;
+  filter:drop-shadow(10px 10px 10px rgb(0, 0, 0));
 }
 .skillsetBox h1
 {
   color: aliceblue;
   margin-top: 150px;
   text-transform: uppercase;
+  filter:drop-shadow(10px 10px 10px rgb(0, 0, 0));
 }
-.devicon-javascript-plain
+.icons
 {
-  width: 200px;
+  margin: auto;
 }
 .icons i
 {
   color: aliceblue;
   font-size: 100px;
+  filter:drop-shadow(10px 10px 10px rgb(0, 0, 0));
   margin-left: 100px;
+}
 
+@media (max-width: 1600px)
+{
+  .icons i
+  {
+    display: block;
+    margin: auto;
+    margin-top: 45px;
+  }
+}
+
+@media (max-width: 900px)
+{
+  .gitHubCalendar
+  {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+}
+.gitHubCalendar
+{
+  margin-top: 150px;
+  filter:drop-shadow(10px 10px 10px rgb(0, 0, 0));
+}
+.react-activity-calendar__legend-month
+{
+  color: aliceblue;
+  filter:drop-shadow(0 0 10px);
+}
+.react-activity-calendar__count 
+{
+  color: red;
+  filter:drop-shadow(0 0 10px);
 }
