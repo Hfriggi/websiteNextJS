@@ -148,10 +148,19 @@ body
     margin-top: 1em;
     margin-left: -8%;
     max-width: 370px;
+    margin-left: -50%;
   }
   .image .perfilImage
   {
-    margin-left: -15%;
+    width: 20em;
+    height: 20em;
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-left: -38%
+  }
+  .content
+  {
+    margin-left: -48%;
   }
 }
 
@@ -476,6 +485,15 @@ body
     margin-right: 20px;
   }
 }
+
+@media (max-width: 600px)
+{
+  .aboutText p
+  {
+  margin-left: 15px;
+  margin-right: 15px;
+  }
+}
 .gitHubCalendar
 {
   margin-top: 150px;
@@ -490,4 +508,51 @@ body
 {
   color: red;
   filter:drop-shadow(0 0 10px);
+}
+
+@media (max-width: 700px)
+{
+  .ml-auto
+  {
+    transition: .5s;
+  }
+  .ul
+  {
+		width: 100%;
+		height: 300px;
+		top: 30px;
+		left: -60%;
+    display: grid;
+    padding: 20px 0px;
+    transition: .5s;
+  }
+  .ul .li
+  {
+    transition: all .5s;
+  }
+
+  .check:checked ~ .ul 
+  {
+		display: none;
+	}
+}
+@media (min-width: 700px)
+{
+  .burgerBtn
+  {
+    display: none;
+  }
+}
+
+.burgerBtn div
+{
+  width: 25px;
+  height: 3px;
+  background-color: aliceblue;
+  margin: 5px;
+  border-radius: 10px;
+}
+.burgerBtn
+{
+  cursor: pointer;
 }

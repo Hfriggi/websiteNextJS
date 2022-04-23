@@ -8,24 +8,29 @@ export const Header = () => {
                     Henrique
                 </h1>
             </div>
+            <input type='checkbox' id='check'/>
             <div className='menu'>
-                <ul>
-                    <li>
-                        <a href='/' data-text='&nbsp;Home'>&nbsp;Home</a>
+                <ul className='ul'>
+                    <li className='li'>
+                        <a className='a' href='/' data-text='&nbsp;Home'>&nbsp;Home</a>
                     </li>
-                    <li>
-                        <a href='/about' data-text='&nbsp;About'>&nbsp;About</a>
+                    <li className='li'>
+                        <a className='a' href='/about' data-text='&nbsp;About'>&nbsp;About</a>
                     </li>
-                    <li>
-                        <a href='/projects' data-text='&nbsp;Projects'>&nbsp;Projects</a>
+                    <li className='li'>
+                        <a className='a' href='/projects' data-text='&nbsp;Projects'>&nbsp;Projects</a>
                     </li>
-                    <li>
-                        <a href='/work' data-text='&nbsp;Work'>&nbsp;Work</a>
+                    <li className='li'>
+                        <a className='a' href='/work' data-text='&nbsp;Work'>&nbsp;Work</a>
                     </li>
                 </ul>
             </div>
+            <label for='check' className='burgerBtn'>
+                <div className='line1'></div>
+                <div className='line2'></div>
+                <div className='line3'></div>
+            </label>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
-
         </nav>
     )
 }

@@ -10,7 +10,6 @@ import { Header } from '../components/Header';
 function Home(){
     return (
     <Fragment>
-    <Header/>
     <head>
         <meta charSet='UTF-8'></meta>
         <title>Henrique Friggi WebSite</title>
@@ -18,6 +17,7 @@ function Home(){
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css"></link>
     </head>
     <body className='HomeBody'>
+    <Header/>
         <center>
         <div className='projects'>
             <div className='container'>
