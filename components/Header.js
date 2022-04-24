@@ -1,5 +1,6 @@
 import Head from 'next/head'
 
+
 export const Header = () => {
     return (
         <nav className='ml-auto'>
@@ -8,9 +9,8 @@ export const Header = () => {
                     Henrique
                 </h1>
             </div>
-            <input type='checkbox' id='check'/>
             <div className='menu'>
-                <ul className='ul'>
+                <ul className='navList' id ='navList'>
                     <li className='li'>
                         <a className='a' href='/' data-text='&nbsp;Home'>&nbsp;Home</a>
                     </li>
@@ -25,12 +25,9 @@ export const Header = () => {
                     </li>
                 </ul>
             </div>
-            <label for='check' className='burgerBtn'>
-                <div className='line1'></div>
-                <div className='line2'></div>
-                <div className='line3'></div>
-            </label>
+            <button id='burgerBtn'>Menu</button>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"></link>
         </nav>
+        
     )
 }

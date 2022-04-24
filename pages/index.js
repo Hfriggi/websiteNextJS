@@ -41,6 +41,7 @@ function Home(){
                 </div>
             </div>
         </center>
+        <script src="mobile-navbar.js"></script>
     </body>
     <Footer />
     </Fragment>
