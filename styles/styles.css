@@ -6,65 +6,7 @@
   box-sizing: border-box;
   font-family: Poppins, sans-serif;
 }
-nav {
-  font-family: 'SF Pro Text', 'SF Pro Icons', 'Helvetica Neue', 'Helvetica',
-    'Arial', sans-serif;
-  padding: 20px 20px 12px;
-  max-width: 100%;
-  background-color: #1b1a1a;
-  text-transform: uppercase;
-  display: flex;
-  justify-content: space-between;
-}
-nav ul
-{
-  position: relative;
-  display: flex;
-  flex-direction:row;
-  gap: 10px;
-}
-nav ul li
-{
-  position: relative;
-  list-style: none;
-}
-nav ul li a
-{
-  position: relative;
-  font-size: 1em;
-  text-decoration:none;
-  line-height: 1.6em;
-  letter-spacing: 2px;
-  color: transparent;
-  -webkit-text-stroke: 0.6px rgba(255, 255, 255, 0.596);
-}
-nav ul li a::before
-{
-   content: attr(data-text);
-   position: absolute;
-   color: rgb(255, 0, 0);
-   width: 0;
-   overflow: hidden;
-   transition: 1s;
-  
-}
-nav ul li a:hover::before
-{
-  width: 100%;
-  -webkit-text-stroke: 1px rgb(255, 0, 0);
-  filter: drop-shadow(0 0 25px);
-  filter: blur(0 0 35px);
-}
-.Tittle
-{
-  color: rgb(223, 230, 230);
-  justify-content: center;
-  max-width: 1200px;
-  letter-spacing: 2px;
-  font-size: 1em;
-  text-transform: uppercase;
-  line-height: 1.6em;
-}
+
 .TextTitle
 {
   color: azure;
@@ -74,9 +16,9 @@ nav ul li a:hover::before
 }
 .HomeBody .boxProjects
 {
-  margin-top: -25em;
-  margin-left: 40%;
-  width: 45em;
+  margin-top: 25em;
+  margin-left: 80%;
+  width: 20em;
   height: 18em;
   position: relative;
   filter: drop-shadow(25px 25px 10px);
@@ -118,11 +60,7 @@ img .perfilImage
   filter: drop-shadow(0 0 25px);
   filter: saturate(0 0 25px);
 }
-header
-{
-  min-width: 100%;
-  margin: auto;
-}
+
 Footer
 {
   text-transform: uppercase;
@@ -374,7 +312,6 @@ body
 }
 .container .boxProjects:hover .content
 {
-  left: -25px;
   padding: 60px 40px;
 
 }
@@ -512,37 +449,10 @@ body
 
 @media (max-width: 700px)
 {
-  .navList
+  .boxProjects .content
   {
-    position: absolute;
-    top: 6vh;
-    right: 0;
-    width: 18vh;
-    height: 30vh;
-    align-items: center;
-    transition: .5s;
-    flex-direction: column;
-    filter:drop-shadow(0 0 2px);
-    background: rgba(0, 0, 0, 0.05);
-    backdrop-filter: blur(10px);
-    justify-content: space-around;
-    transform: translateX(100%);
-    border-radius: 10px;
-    transition: transform 0.3s ease-in;
+    max-width: 100;
   }
-  .burgerBtn
-  {
-    display: block;
-  }
-  .navList .li
-  {
-    transition: all .5s;
-  }
-
-  .checkbox:checked .navList
-  {
-		display: none;
-	}
 }
 @media (min-width: 700px)
 {
@@ -551,11 +461,51 @@ body
     display: none;
   }
 }
-.navList.active
-{
-  transform: translateX(0);
+
+body{
+  overflow-x: hidden;
 }
 
- html, ml-auto,  body {
-  overflow-x: hidden;
+ul#menu a
+{
+  margin: 0px;
+  padding: 0px;
+  text-decoration: none;
+  display: flex;
+  color: aliceblue;
+}
+
+ul#menu a:hover
+{
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#logo
+{
+  text-transform: uppercase;
+  text-decoration: none;
+  color: aliceblue;
+  letter-spacing: 2px;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+#header
+{
+  box-sizing: border-box;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 0, 0, 0.05);
+  backdrop-filter: blur(10px);
+}
+#menu li
+{
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+
+#menu li a
+{
+  padding: 0.5rem;
 }

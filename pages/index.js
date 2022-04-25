@@ -14,6 +14,7 @@ function Home(){
         <meta charSet='UTF-8'></meta>
         <title>Henrique Friggi WebSite</title>
         <link rel='stylesheet' href='styles.css'></link>
+        <script src="mobile-navbar.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css"></link>
     </head>
     <body className='HomeBody'>
