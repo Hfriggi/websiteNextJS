@@ -512,10 +512,6 @@ body
 
 @media (max-width: 700px)
 {
-  body
-  {
-    overflow-x: hidden;
-  }
   .navList
   {
     position: absolute;
@@ -559,3 +555,8 @@ body
 {
   transform: translateX(0);
 }
+
+body
+  {
+    overflow-x: hidden;
+  }
