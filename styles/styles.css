@@ -436,6 +436,10 @@ body
   margin-top: 150px;
   filter:drop-shadow(10px 10px 10px rgb(0, 0, 0));
 }
+.gitHubCalendar h1
+{
+  color: aliceblue;
+}
 .react-activity-calendar__legend-month
 {
   color: aliceblue;

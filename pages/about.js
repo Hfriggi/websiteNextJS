@@ -2,11 +2,12 @@ import {Footer} from '../components/Footer';
 import { Header } from '../components/Header';
 import React, { Fragment } from 'react';
 import GitHubCalendar from 'react-github-calendar';
-  
+
 function Home(){
     return (
         <Fragment>
         <Header/>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css"></link>
         <body className='aboutBody'>
             <div className='aboutMain'>
                 <div className='aboutBox'>
@@ -52,7 +53,6 @@ function Home(){
                              Tools I use
                             </h1>
                             <br/><br/>
-                            <i class="devicon-vscode-plain-wordmark"></i>
                             <i class="devicon-git-plain"></i>
                             <i class="devicon-github-original-wordmark"></i>
                             <i class="devicon-amazonwebservices-plain-wordmark"></i>
@@ -61,6 +61,8 @@ function Home(){
                 </div>
                 <div className='gitHubCalendar'>
                     <center>
+                        <h1>Days I code</h1>
+                        <br/><br/>
                         <GitHubCalendar username="hfriggi"/>
                     </center>
                 </div>
