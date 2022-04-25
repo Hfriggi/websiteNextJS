@@ -556,7 +556,6 @@ body
   transform: translateX(0);
 }
 
-body
-  {
-    overflow-x: hidden;
-  }
+ html, ml-auto,  body {
+  overflow-x: hidden;
+}
