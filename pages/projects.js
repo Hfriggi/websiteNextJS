@@ -6,6 +6,8 @@ function Home(){
     return (
         <Fragment>
         <Header/>
+        <script src="mobileButton.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <center>
         <h1 className='projectTittle'>PROJECTS</h1>
         </center>

@@ -8,6 +8,8 @@ function Home(){
         <Fragment>
         <Header/>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.10.1/devicon.min.css"></link>
+        <script src="mobileButton.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <body className='aboutBody'>
             <div className='aboutMain'>
                 <div className='aboutBox'>
