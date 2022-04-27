@@ -12,53 +12,67 @@
   color: azure;
   text-decoration:underline;
   margin: auto;
-  font-size: 3em
+  font-size: 4em
 }
-.HomeBody .boxProjects
-{
-  margin-top: 25em;
-  margin-left: 80%;
-  width: 20em;
-  height: 18em;
-  position: relative;
-  filter: drop-shadow(25px 25px 10px);
-  border-radius: 10px;
-}
+
 .TextDescribe
 {
   color: azure;
   font-size: 1.2em;
-
+}
+.introbox
+{
+  background-color: rgba(0, 0, 0, 0.05);
+  margin: 10px 10px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  backdrop-filter: blur(10px);
+}
+.introText
+{
+  color: azure;
+  font-size: 1em;
+  min-width: 278px;
+  max-width: 900px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 1.3rem;
+}
+.read
+{
+  display: inline-block;
+  font-size: 1.1em;
+  color: #111;
+  background: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  text-decoration: underline;
+  font-weight: 700;
+  margin-top: 10px;
 }
 .image .perfilImage
 {
-  margin-top: 10em;
-  margin-right: 55%;
-  width: 25em;
-  height: 25em;
+  margin-right: 600px;
+  margin-top: 150px;
+  margin-bottom: 50px;
   align-items: center;
   background-color: #1b1a1a ;
   filter: drop-shadow(0 0 25px);
   clip-path: circle();
-}
-img .perfilImage
-{
-  width: 25em;
-  height: 25em;
-  clip-path: circle();
+  filter: drop-shadow(18px 8px 8px rgb(0, 0, 0));
 }
 .firstText
 {
   align-content: center;
-  margin-left: 50%;
-  margin-top: -25%;
-  margin-bottom: 20%;
+  margin-left: 40%;
+  margin-top: -300px;
+  margin-bottom: 300px;
   width: 35em;
   height: 10em;
   color: aliceblue;
   text-decoration: underline;
-  filter: drop-shadow(0 0 25px);
-  filter: saturate(0 0 25px);
+  filter: drop-shadow(10px 8px 8px rgb(0, 0, 0));
+  font-size: 1.2rem;
 }
 
 Footer
@@ -79,61 +93,33 @@ body
   background-color: rgb(46, 63, 110);
 }
 
-@media (max-width: 1200px)
+@media (max-width: 1000px)
 {
   .firstText
   {
-    margin-top: 1em;
-    margin-left: -8%;
-    max-width: 370px;
-    margin-left: -50%;
+    max-width: 300px;
+    margin: auto;
+    font-size: 0.8rem;
+    justify-content: center;
   }
   .image .perfilImage
   {
-    width: 20em;
-    height: 20em;
-    margin-right: 0%;
-    margin-left: 0%;
-    margin-left: -38%
+    width: 15em;
+    height: 15em;
+    margin: auto;
+    justify-content: center;
   }
-  .content
+  .introText
   {
-    margin-left: -48%;
+    font-size: 1rem;
   }
 }
 
-@media (max-width: 700px)
-{
-  .boxProjects
-  {
-    min-height: 540px;
-    min-width: 300px;
-  }
-}
-
-.HomeBody .projects
-{
-  min-height: 100vh;
-  width: 60%;
-  margin: auto;
-
-}
 .HomeBody .container
 {
   flex-wrap: wrap;
   width: 100%;
   padding: 40px 25px;
-}
-.HomeBody .container .boxProjects
-{
-  position: relative;
-  width: 100%;
-  height: 450px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 40px 30px;
-  transition: 0.5s;
 }
 
 .mainPage
@@ -172,6 +158,7 @@ body
   align-items: center;
   margin: 40px 30px;
   transition: 0.5s;
+  margin-bottom: 200px;
 }
 .container .boxProjects::before
 {
@@ -357,7 +344,7 @@ body
   max-width: 1000px;
   min-height: 600px;
   border-radius: 25px;
-  margin-top: 100px;
+  margin-top: 150px;
 }
 .aboutText
 {
@@ -460,6 +447,7 @@ body
   #btnMobile
   {
     display: block;
+    cursor: pointer;
   }
   #menu
   {
@@ -548,4 +536,9 @@ ul#menu a:hover
 {
   display: inline-block;
   margin: 5px 0;
+}
+
+.listMenu::before
+{
+  transition: all 0.5s ease;
 }

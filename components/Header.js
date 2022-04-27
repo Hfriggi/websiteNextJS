@@ -10,7 +10,8 @@ export const Header = () => {
             <nav id='nav'>
                 <div id='btnMobile'>Menu</div>
                 <ul id='menu'>
-                    <li>
+                    <li className='listMenu'>
+                        <a href='/'>Home</a>
                         <a href='/about'>About</a>
                         <a href='/projects'>Projects</a>
                         <a href='/work'>Work</a>

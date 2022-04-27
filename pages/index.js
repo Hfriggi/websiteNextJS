@@ -15,27 +15,30 @@ function Home(){
     <script src="mobileButton.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
         <center>
-        <div className='projects'>
             <div className='container'>
                 <div className='image'>
                     <img className='perfilImage' src='/images/perfil.jpg'/>
                 </div>
                 <div className='firstText'>
-                    <h1>Hey! Welcome to my WebSite!</h1>
+                    <center>
+                        <h1>Hey! Welcome to my WebSite!</h1>
+                    </center>
                 </div>
-                <div className='boxProjects'>
-                    <span></span>
-                        <div className='content'>
+                <div className='introbox'>
+                        <div className='introText'>
+                            <center>
                             <h2>A Short Introduction</h2>
+                            <br></br>
                             <p>Graduating in Control and Automation Engineering and front-end developer in training. 
                                 Amateur astronomer. Self-taught, motivated and fascinated by technology. 
                                 My first experience codding was in my university. Since there i look to improve 
                                 my skills to get better.</p>
-                            <a href='/about'>Read More In About</a>
+                            <br></br>
+                            <a className='read'href='/about'>Read More In About</a>
+                            </center>
                         </div>
                     </div>
                 </div>
-            </div>
         </center>
         <script src="mobile-navbar.js"></script>
         <head>
