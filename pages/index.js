@@ -21,7 +21,7 @@ function Home(){
                 </div>
                 <div className='firstText'>
                     <center>
-                        <h1>Hey! Welcome to my WebSite!</h1>
+                        <h1>Welcome to my web site!</h1>
                     </center>
                 </div>
                 <div className='introbox'>
